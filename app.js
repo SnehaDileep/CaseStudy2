@@ -63,5 +63,5 @@ app.get('/',function(req,res){
 // });
 
 // edited here 5
- const PORT = process.env.PORT || 3000;
- app.listen(port,()=>console.log(`SEVER RUNNING ON ${PORT}`));
+ const PORT = process.env.PORT || 5000;
+ app.listen(PORT,()=>console.log(`SEVER RUNNING ON ${PORT}`));
